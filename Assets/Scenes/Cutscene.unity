@@ -196,7 +196,7 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 2936
+  m_ColorTemperature: 2993
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -313,6 +313,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stage1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382799219754379413, guid: 6fc3b433a029f5a4595f1717fcfcbaf8,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.40557137
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382799219754379413, guid: 6fc3b433a029f5a4595f1717fcfcbaf8,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.41417423
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382799219754379413, guid: 6fc3b433a029f5a4595f1717fcfcbaf8,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.990566
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382799219754379413, guid: 6fc3b433a029f5a4595f1717fcfcbaf8,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 5.99
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
