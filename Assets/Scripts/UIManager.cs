@@ -8,15 +8,20 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject mainMenu;
     [SerializeField] private GameObject optionsMenu;
 
+    private MainMenuSwitch mainMenuSwitch;
+
     private void Start()
     {
         mainMenu.SetActive(true);
         optionsMenu.SetActive(false);
+        
+        mainMenuSwitch = FindObjectOfType<MainMenuSwitch>();
     }
 
-    public void LoadScene(int index)
+    public void PlayCutscene()
     {
-        SceneManager.LoadScene(index);
+        mainMenuSwitch.PlayCutscene();
+        mainMenu.SetActive(false);
     }
 
     public void MainMenu()
